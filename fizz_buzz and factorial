@@ -1,0 +1,27 @@
+def fizzbuzz(num):
+    if x % 3 == 0 and x % 5 == 0:
+        return "Fizz Buzz"
+    elif x % 3 == 0:
+        return "Fizz"
+    elif x % 5 == 0:
+        return "Buzz"
+    else:
+        return x    
+
+MAX = 100
+for x in range (MAX):
+    print fizzbuzz(x)
+    
+    
+def fact(x):
+    if x == 0:
+        return 0
+    elif x == 1:
+        return 1
+    else:
+        return x * fact(x-1)
+ 
+for x in range(0,10):
+    print '%d! = %d' %(x, fact(x))
+    
+    
